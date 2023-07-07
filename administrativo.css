@@ -1,0 +1,57 @@
+.titulosecao {
+    width: 90%;
+    margin: 2rem auto 0 auto;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif, Arial, Helvetica;
+    font-weight: 600;
+    color: #5d5d5d;
+}
+
+.conteiner-disciplina {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.conteiner-disciplina img {
+    width: 30px;
+}
+
+.linha-disciplina {
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    padding: .6rem;
+    border-radius: 7px;
+    transition: ease-in-out .3s;
+}
+
+.linha-disciplina div {
+    margin-left: 1rem;
+    color: #0B1634;
+}
+.linha-disciplina:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+#powerbi-icon {
+    width: 24px;
+}
+
+@media (max-width: 990px) {
+    .conteiner-disciplina {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    .conteiner-disciplina div {
+        font-size: .8rem;
+    }
+}

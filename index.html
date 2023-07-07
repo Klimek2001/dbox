@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBox</title>
+    <link rel="shortcut icon" href="img/dbox-favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8abf0ff8b8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="escalas.css">
+    <link rel="stylesheet" href="linksuteis.css">
+    <link rel="stylesheet" href="calendario.css">
+    <link rel="stylesheet" href="horarios.css">
+    <link rel="stylesheet" href="pedagogico.css">
+    <link rel="stylesheet" href="administrativo.css">
+    <!-- <link rel="stylesheet" href="mediaquery.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8abf0ff8b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="conteinergeral"> 
+
+    <header id="header">
+
+        <a id="logo">DBox</a>
+
+        <nav id="nav">
+
+            <div id="btn-mobile">
+                <i class="fa-solid fa-bars"></i>    
+            </div>
+
+            <div class="menu" id="menu">
+
+                <a href="index.html" class="active">Home</a>
+                <a href="espiritual.html">Espiritual</a>
+                <a href="pedagogico.html">Pedagógico</a>
+                <a href="administrativo.html">Administrativo</a>
+                <a href="matriculas.html">Matrículas</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Barra azul com menus de emergência -->
+    <section class="important">
+
+        <a href="https://sistemas.usb.org.br/ama/index.php" target="_blank" class="cardurgentes">
+            <div class="restricoes">
+                <span class="material-icons">medical_services</span>
+                <div>AMA - Emergências</div>
+            </div>
+        </a>
+
+        <a href="https://docs.google.com/spreadsheets/d/1BJsdME7Y-h7E7Dpcb3FcA0sVnCHO9R72c89bLrt5G9o/edit#gid=0" target="_blank" class="cardurgentes">
+            <div class="restricoes">
+                <span class="material-icons">info</span>
+                <div>Alunos com restrições</div>
+            </div>
+        </a>
+
+        <a class="cardurgentes" id="fonesurgencias">
+            <div class="restricoes">
+                <span class="material-icons">phone</span>
+                <div>Contatos de Urgência</div>
+            </div>
+        </a>
+        
+
+    </section>
+
+    <main id="conteinerhome">
+
+        <!-- ESCALAS -->
+        <div class="divhome" id="escalas">
+
+            <div class="conteinerescalas">    
+                
+                <a href="https://docs.google.com/spreadsheets/d/14Uunvp6n2TqNqvWRmyKP_AF_GcfFretENUY4if5beTk/edit#gid=0" target="_blank">
+                   
+                    <div class="escala" id="escalacultos">
+                       
+                        <div class="icon">
+                            <img src="img/yes.png" alt="">
+                        </div>
+                        <div class="infocultos">
+                            <!-- <i id="cultosprev" class="fa-solid fa-angle-left"></i>
+                            <i id="cultosnext" class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-plus"></i> -->
+                            <div class="subtitulo" id="titulocultos">Cultos</div>
+                            <div class="link-content" id="cultos"></div>
+                            <!-- <div class="link-content" id="cultosTarde"></div> -->
+                        </div>
+                    
+                    </div>
+                
+                </a>
+                
+                <a href="https://docs.google.com/spreadsheets/d/1YEggkMWLcesddzRU66QW_ZPXnxFlaZojluN6J8xclNQ/edit#gid=0" target="_blank">
+                   
+                    <div class="escala">
+                        
+                        <div class="icon">
+                            <img src="img/yes.png" alt="" id="icon-compensacao">
+                        </div>
+                        <div>
+                            <div class="subtitulo" id="titulocompensacao">Compensação</div>
+                            <!-- <div class="link-content" id="nomescompquarta"></div> -->
+                            <div class="link-content" id="nomescomp"></div>
+                        </div>
+                   
+                    </div>
+                </a>
+
+                <a href="#">
+
+                    <div class="escala">
+                        
+                        <div class="icon">
+                            <img src="img/yes.png"alt="" id="icon-plantao-diario">
+                        </div>
+                        <div>
+                            <div class="subtitulo">Plantão diário</div>
+                            <div class="link-content" id="plantaodiario"></div>
+                        </div>
+                    
+                    </div>
+                
+                </a>
+
+                <a href="https://docs.google.com/spreadsheets/d/1YEggkMWLcesddzRU66QW_ZPXnxFlaZojluN6J8xclNQ/edit#gid=0" target="_blank">
+
+                    <div class="escala" id="escalasexta">
+                        
+                        <div class="icon">
+                            <img src="img/yes.png" alt="">
+                        </div>
+                        <div>
+                            <div class="subtitulo">Plantão sexta</div>
+                            <div class="link-content" id="plantaosexta">Recesso/Feriado</div>
+                        </div>
+                    
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="conteineraniversariantes">
+
+                <div class="aniversariantes" id="aniver">
+                    <!-- <i id="prevAniv" class="fa-solid fa-angle-left"></i> -->
+                    <!-- <a href="aniversariantes-list.html" target="_blank"><i id="nextAniv" class="fa-solid fa-angle-right"></i></a> -->
+                    <a href="aniversariantes-list.html" id="bt-aniver" target="_blank"></a>
+                    <div id="aniverTitulo"></div>
+                    <div class="box-aniver-img" id="aniver-img">
+                        <!-- <div class="aniversariante" id="aniversariante">
+                            <img src="img/anivImg/dls.png">
+                            <div class="aniver-nome">Douglas Leal dos Santos</div>
+                            <div class="aniver-funcao">Diretor</div>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- LINKS RÁPIDOS -->
+        <div class="divhome" id="divhomelinks">
+
+            <div class="linksuteis">
+
+                <!-- Sistemas -->
+                <div class="linksuteisbox">
+
+                    <a href="https://docs.google.com/document/d/1VP4dJArGpPaluoyEfLrj4bFSdoWrdUFO/edit" target="_blank">
+                        <div class="img">
+                            <img src="img/calendar.png" alt="">
+                            <div class="legenda-links">Calendário</div>
+                        </div>
+                    </a>
+
+                    <a href="https://calendar.google.com/calendar/u/1/r" target="_blank">
+                        <div class="img">
+                            <img src="img/googlecal.png" alt="">
+                            <div class="legenda-links">Google Agenda</div>
+                        </div>
+                    </a>
+
+                    <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">
+                        <div class="img">
+                            <img src="img/new.png" alt="">
+                            <div class="legenda-links">Gmail</div>
+                        </div>
+                    </a>
+
+                    <a href="https://caab.escolaemmovimento.com.br/Acesso/Login" target="_blank">
+                        <div class="img">
+                            <img src="img/eem.png" alt="">
+                            <div class="legenda-links">Agenda</div>
+                        </div>
+                    </a>
+
+                    <a href="https://login.cpbedu.me/" target="_blank">
+                        <div class="img">
+                            <img src="img/eclass.png" alt="">
+                            <div class="legenda-links">E-class</div>
+                        </div>
+                    </a>
+
+                    <a href="https://sad-asp.educadventista.org/" target="_blank">
+                        <div class="img">
+                            <img src="img/sad.png" alt="">
+                            <div class="legenda-links">SAD</div>
+                        </div>
+                    </a>
+
+                    <a href="https://sad-asp.educadventista.org/" target="_blank">
+                        <div class="img">
+                            <img src="img/sad-apoio.png" alt="">
+                            <div class="legenda-links">SAD Apoio</div>
+                        </div>
+                    </a>         
+
+                    <a href="https://drive.google.com/drive/u/1/folders/0AIh4iGkMG6UuUk9PVA" target="_blank">
+                        <div class="img">
+                            <img src="img/drive.png" alt="">
+                            <div class="legenda-links">Escolas 2023</div>
+                        </div>
+                    </a>
+
+                    <a href="https://drive.google.com/drive/u/1/folders/1n9VPi0kij4NA7pup9PuglE7HiwEcg_o4" target="_blank">
+                        <div class="img">
+                            <img src="img/mail.png" alt="">
+                            <div class="legenda-links">Comunicados</div>
+                        </div>
+                    </a>
+
+                    <a href="https://drive.google.com/drive/folders/1pOgt-SDj4SXvQoxS8z6uJFsiRN8sWzME?usp=sharing" target="_blank">
+                        <div class="img">
+                            <img src="img/folder.png" alt="">
+                            <div class="legenda-links">Atas RA</div>
+                        </div>
+                    </a>
+
+                    <!-- <a href="https://docs.google.com/spreadsheets/d/1dy6Ai_z_VejTFFZYf87SLAMhHI9yJ1wW5_4UOJqmzj4/edit#gid=0" target="_blank">
+                        <div class="img">
+                            <img src="img/growth.png" alt="">
+                            <div class="legenda-links">Relatórios</div>
+                        </div>
+                    </a> -->
+                   
+                    <a href="https://dls76.github.io/espelhosdeclasse/" target="_blank">
+                        <div class="img">
+                            <img src="img/layers.png" alt="">
+                            <div class="legenda-links">Espelhos</div>
+                        </div>
+                    </a>
+
+                    <a href="https://login-rh.sdasystems.org/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Did_token%2520token%26client_id%3Drhonlineangular%26state%3DWElQeWhYQkpRT0pVZzNObG5oNkItT0xLMlB6ZWFGLTQyUERFQjFleC1wM2J-;login%26redirect_uri%3Dhttps%253A%252F%252Frh-online.sdasystems.org%252Flogin%26scope%3Dopenid%2520profile%2520email%2520rhonline%253Aall%2520aps%253Aenrollment%26nonce%3DWElQeWhYQkpRT0pVZzNObG5oNkItT0xLMlB6ZWFGLTQyUERFQjFleC1wM2J-" target="_blank">
+                        <div class="img">
+                            <img src="img/rhlogo.png" alt="" id="rh">
+                            <div class="legenda-links">RH</div>
+                        </div>
+                    </a>
+
+                    <a href="https://siga.sdasystems.org/" target="_blank">
+                        <div class="img">
+                            <img src="img/logoiasd.jpg" alt="">
+                            <div class="legenda-links">SIGA</div>
+                        </div>
+                    </a>
+
+                    <a href="https://ead.armsa.com/" target="_blank">
+                        <div class="img" id="arm">
+                            <img src="img/arm.jpg" alt="">
+                            <div class="legenda-links">ARM</div>
+                        </div>
+                    </a>
+
+                    <a href="https://acrm.sdasystems.org/" target="_blank">
+                        <div class="img">
+                            <img src="img/acrm.png" alt="">
+                            <div class="legenda-links">ACRM</div>
+                        </div>
+                    </a>
+
+                </div>
+
+                <!-- Próximos Eventos -->
+                <div class="linksuteisbox" id="linksproxeventos"> 
+
+                    <a href="https://docs.google.com/document/d/1t9JyS0CSHvZRhVQ0T8WeCqHVKNALWkpxW5UKvETqAts/edit" target="_blank">
+                        <div class="img">
+                            <img src="img/gold-medal.png" alt="">
+                            <div class="legenda-links">Interséries</div>
+                        </div>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="img">
+                            <img src="img/encerramento.png" alt="">
+                            <div class="legenda-links">Encerramento</div>
+                        </div>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="img">
+                            <img src="img/teacher.png" alt="">
+                            <div class="legenda-links">Capacitação</div>
+                        </div>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="img">
+                            <img src="img/back.png" alt="">
+                            <div class="legenda-links">Volta Aulas</div>
+                        </div>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="img">
+                            <img src="img/moustache.png" alt="">
+                            <div class="legenda-links">Dia dos Pais</div>
+                        </div>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="img">
+                            <img src="img/balloons.png" alt="">
+                            <div class="legenda-links">Visita Escolas</div>
+                        </div>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="img">
+                            <img src="img/target.png" alt="">
+                            <div class="legenda-links">L. Matrículas</div>
+                        </div>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="img">
+                            <img src="img/handball.png" alt="">
+                            <div class="legenda-links">Fair Play</div>
+                        </div>
+                    </a>
+
+                    <a href="https://docs.google.com/spreadsheets/d/1buTOzXafV9mtx028lz7F3l-y3ZSSvMf2WO6D94pf57k/edit?usp=sharing" target="_blank">
+                        <div class="img">
+                            <img src="img/graduation.png" alt="">
+                            <div class="legenda-links">Formaturas</div>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CALENDÁRIO -->
+        <div class="divhome" id="divhomecalendario">
+
+            <div class="box-cal-num">
+
+                <div class="mescalbox">
+                    
+                    <span class="spancal prev">
+                        <i class="fa-solid fa-chevron-left prev"></i>
+                    </span>
+                    <div class="mescal"></div>
+                    <span class="spancal next">
+                        <i class="fa-solid fa-chevron-right next"></i>
+                    </span>
+                
+                </div>
+
+                <div class="bodycal">
+                    <div class="weekdays">
+                        <div>Dom</div>
+                        <div>Seg</div>
+                        <div>Ter</div>
+                        <div>Qua</div>
+                        <div>Qui</div>
+                        <div>Sex</div>
+                        <div>Sáb</div>
+                    </div>
+                    <div class="days"></div>
+                </div>
+
+                <div class="box-updown">
+                    <i class="fa-solid fa-angle-down block" id="bt-down"></i>
+                    <i class="fa-solid fa-angle-up hidden" id="bt-up"></i>
+                </div>
+                
+                <div class="btnsCal" id="btnsCal">
+                    <div class="btnHoje" id="btn-hoje">Hoje</div>
+                    <div id="btn-obs">Observações</div>
+                </div>
+            
+                <div class="filtros" id="filtros">
+                    <button id="bt-todos" class="btFiltro active-btn" onclick="filterSelection('all')">TUDO</button>
+                    <button id="bt-caab" class="btFiltro" onclick="filterSelection('caab')">CAAB</button>
+                    <button id="bt-asp" class="btFiltro" onclick="filterSelection('asp')">ASP</button>
+                    <button id="bt-asp" class="btFiltro" onclick="filterSelection('pais')">PAIS</button>
+                </div>
+
+                <div class="body-proximoseventos" id="body-eventos">
+                    <!-- <div class="evento">
+        
+                        <div class="data">
+                            <div class="dias">
+                                <div class="dia">2</div>
+                                <div class="a">a</div>
+                                <div class="dia2">4</div>
+                            </div>
+                            <div class="mes">FEV</div>
+                        </div>
+                        <div class="descricao">Reunião de Diretores</div>
+                        <div class="resp">
+                            <img src="img/user.png" alt="">
+                        </div>
+                    </div>-->
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CELEBRAS -->
+        <div class="divhome" id="escalas">
+
+            <div class="conteinerescalas">    
+                
+                <a href="https://docs.google.com/spreadsheets/d/1-020pXSavJ-EBM5eRpbR5FBSZbzU5yHMSNkBo8Rk_HM/edit#gid=0" target="_blank">
+
+                    <div class="escala" id="escalacelebra">
+                       
+                        <div class="icon">
+                            <img src="img/checkblue.png" alt="">
+                        </div>
+                        <div>
+                            <div class="subtitulo" id="titulocelebra">Celebra FII-EM</div>
+                            <div class="link-content" id="celebra">Aguardando escala</div>
+                        </div>
+                   
+                    </div>
+               
+                </a>
+
+                <a href="#" target="_blank">
+
+                    <div class="escala" id="escalacelebra2">
+                       
+                        <div class="icon">
+                            <img src="img/checkblue.png" alt="">
+                        </div>
+                        <div>
+                            <div class="subtitulo" id="titulocelebra2">Celebra EI-FI</div>
+                            <div class="link-content" id="celebra2">Aguardando escala</div>
+                        </div>
+                    
+                    </div>
+              
+                </a>
+
+            </div>
+
+            
+        </div>
+
+
+
+
+        <!-- Horários -->
+         <div class="divhome" id="divhomehorarios">
+
+            <div class="cardhorario" id="t61">
+                
+                <div class="turma">61</div>
+                
+                <div class="horariofoto">
+                    <img src="img/acs.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Denise</div>
+                    <div class="horariodisciplina">Matemática</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t62">
+                
+                <div class="turma">62</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/abril/dielen.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Alessandra</div>
+                    <div class="horariodisciplina">Ciências</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t63">
+                
+                <div class="turma">63</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/abril/andre.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Luis Felipe</div>
+                    <div class="horariodisciplina">Religião</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t71">
+                
+                <div class="turma">71</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/maio/wilson.jpg" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Wilson</div>
+                    <div class="horariodisciplina">História</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t72">
+                
+                <div class="turma">72</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/maio/jaque.jpg" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Jaqueline</div>
+                    <div class="horariodisciplina">Redação</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t73">
+                
+                <div class="turma">73</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/abril/lucaslima.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Hermes</div>
+                    <div class="horariodisciplina">Matemática</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t81">
+                
+                <div class="turma">81</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/abril/anaclaudia.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Elisa</div>
+                    <div class="horariodisciplina">Química</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t82">
+                
+                <div class="turma">82</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/abril/jack.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Jackelini</div>
+                    <div class="horariodisciplina">Redação</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t83">
+                
+                <div class="turma">83</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/abril/elaine.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Elaine</div>
+                    <div class="horariodisciplina">Portugês</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t91">
+                
+                <div class="turma">91</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/maio/elisa.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Elisa</div>
+                    <div class="horariodisciplina">Química</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t92">
+                
+                <div class="turma">92</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/maio/patriciamaria.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Guilherme/Patrícia</div>
+                    <div class="horariodisciplina">Ed. Física</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t93">
+                
+                <div class="turma">93</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/maio/fernando.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Fernando</div>
+                    <div class="horariodisciplina">Física</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t111">
+                
+                <div class="turma">111</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/abril/sandranascimento.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Scheyla</div>
+                    <div class="horariodisciplina">Inglês</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t112">
+                
+                <div class="turma">112</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/maio/rodrigo.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Guilherme</div>
+                    <div class="horariodisciplina">Religião</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t121">
+                
+                <div class="turma">121</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/abril/andre.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Hermes</div>
+                    <div class="horariodisciplina">Matemática</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+
+            <div class="cardhorario" id="t131">
+                
+                <div class="turma">131</div>
+                
+                <div class="horariofoto">
+                    <img src="img/anivImg/abril/josiele.png" alt="">
+                </div>
+                
+                <div class="horarioinfo">
+                    <div class="nomeprof">Lia</div>
+                    <div class="horariodisciplina">Biologia</div>
+                </div>
+                
+                <div class="horariotime">
+                    <span>16:25</span>
+                </div>
+
+                <div class="proxhorario">
+                    <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                
+
+            </div>
+           
+        </div> 
+       
+    </main>  
+    
+</div> <!-- fecha .conteinergeral-->
+      
+    
+
+<div class="body">
+            
+        <div class="title">HORÁRIOS</div>
+        
+        <div class="conteiner">
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <h2 class="h2">Infantil ao 5º</h2>
+                        <a class="horarios" href="horarios/turmas-manha-peq.pdf" target="_blank">Manhã</a>
+                        <a class="horarios" href="horarios/turmas-tarde-peq.pdf" target="_blank">Tarde</a>
+                        <a class="horarios" href="horarios/parque.pdf" target="_blank">Parque</a>
+                        <a class="horarios" href="horarios/recreios-peq.pdf" target="_blank">Recreio</a>
+                        <a class="horarios" href="horarios/reforco-e-oficinas-peq.pdf" target="_blank">Reforço e Oficinas</a>
+                        <a class="horarios" href="docs/regentes.pdf" target="_blank">Link Teste</a>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <h2>Infantil ao 5º</h2>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <h2 class="h2">6º ao Médio</h2>
+                        
+                        <a class="horarios" href="horarios/geral-manha-mai.pdf" target="_blank">Manhã (geral)</a>
+                        <a class="horarios" href="horarios/turmas-manha-mai.pdf" target="_blank">Manhã (turmas)</a>
+                        <a class="horarios" href="horarios/geral-tarde-mai.pdf" target="_blank">Tarde (geral)</a>
+                        <a class="horarios" href="horarios/turmas-tarde-mai.pdf" target="_blank">Tarde (turmas)</a>
+                        <a class="horarios" href="horarios/professores-geral-mai.pdf" target="_blank">Professores</a>
+                        <a class="horarios" href="https://docs.google.com/document/d/1C7fdGr-lSusRJG6BON5hvrRGR6jm5_ay/edit?usp=sharing&ouid=112700755277277045741&rtpof=true&sd=true" target="_blank">Reforço 6º ao 8º</a>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <h2>6º ao Médio</h2>
+                </div>
+            </div>
+            
+            <div class="card">
+                
+                <div class="face face1">
+                    
+                    <div class="content">
+                        
+                        <h2 class="h2">Outros horários</h2>
+                        
+                        <a class="horarios" href="horarios/escolinhas.pdf" target="_blank">Escolinhas</a>
+                        
+                        <a class="horarios" href="horarios/robótica.pdf" target="_blank">Robótica</a>
+                        
+                        <a class="horarios" href="horarios/maker.pdf" target="_blank">Sala Maker</a>
+                        
+                        <details id="ingles">
+                            <summary>Inglês</summary>
+                            <a href="">Horários</a>
+                            <a href="docs/ingles/freshman.pdf">Freshman</a>
+                            <a href="docs/ingles/kids.pdf">Kids</a>
+                            <a href="docs/ingles/teens.pdf">Teens</a>
+                        </details>
+                        
+                        
+                    </div>
+                </div>
+                <div class="face face2">
+                    <h2>Outros</h2>
+                </div>
+            </div>
+        
+    </div>
+    
+
+    
+
+
+<div class="bgmodal" id="bgmodal">
+    
+    <div class="modal" id="modal">
+        
+        <h1>Fones de Urgência</h1>
+        <ul>
+            <li><span class="numerosurgencia">190</span> - Polícia</li>
+            <li><span class="numerosurgencia">192</span> - SAMU</li>
+            <li><span class="numerosurgencia">193</span> - Bombeiros</li>
+            <li><span class="numerosurgencia">156</span> - Conselho Tutelar (pós 18h e final de semana)</li>
+            <li><span class="numerosurgencia">3313-5558</span> - Conselho Tutelar (8h às 18h - Beth)</li>
+            <li><span class="numerosurgencia">9.9861-0767</span> - Sekron</li>
+            <li><span class="numerosurgencia">9.9682-5103</span> - Assessoria de Imprensa (Jordana)</li>
+            <li><span class="numerosurgencia">9.9681-9803</span> - Dr. Rodrigo Hahn (Advogado ASP)</li>
+        </ul>
+        <div class="fecharmodalbox">
+            <div class="fechar" id="fecharmodal">Fechar</div>
+        </div>
+    </div>
+    
+    
+</div>
+
+</div>
+
+<script src="dbox.js"></script>
+<script src="aniversariantes.js"></script>
+<script src="eventos.js"></script>
+<script src="calendario.js"></script>
+<script src="filtros.js"></script>
+<script src="teste.js"></script>
+<script src="script.js"></script>
+<!-- <script src="timer.js"></script> -->
+
+</div>
+</body>
+</html>
