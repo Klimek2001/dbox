@@ -115,9 +115,9 @@ let plantaosexta = [
     {data: new Date(2023, 6, 14), person: "Recesso"},
     {data: new Date(2023, 6, 21), person: "Recesso"},
     {data: new Date(2023, 6, 28), person: "Thiago"},
-    {data: new Date(2023, 7, 4), person: "Léo"},
-    {data: new Date(2023, 7, 11), person: "Eliesio"},
-    {data: new Date(2023, 7, 18), person: "Mirian"},
+    {data: new Date(2023, 7, 4), person: ""},
+    {data: new Date(2023, 7, 11), person: ""},
+    {data: new Date(2023, 7, 18), person: ""},
     {data: new Date(2023, 7, 25), person: ""},
     {data: new Date(2023, 8, 1), person: ""},
     {data: new Date(2023, 8, 8), person: ""},
@@ -366,6 +366,8 @@ let plantaodiario = [
     {data: new Date(2023, 6, 1), pessoa: "Rudi"},
     {data: new Date(2023, 6, 2), pessoa: "Thiago"},
     {data: new Date(2023, 6, 3), pessoa: "Pr. Guilherme"},
+
+    
 
 ]
 for (let m = 0; m < plantaodiario.length; m++ ) {
