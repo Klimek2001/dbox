@@ -60,3 +60,27 @@
 #bi {
     width: 57px;
 }
+
+#link-topo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(222, 45, 142);    
+    padding: 1.2em;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
+}
+
+#suporteBtn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
