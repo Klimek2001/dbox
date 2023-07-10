@@ -236,6 +236,8 @@ let cultos = [
     {data: new Date(2023, 6, 5), pessoaM: "Pr. Guilherme", pessoaT: "Pr. Guilherme"},
     {data: new Date(2023, 6, 6), pessoaM: "Pr. Guilherme", pessoaT: "Pr. Guilherme"},
     {data: new Date(2023, 6, 7), pessoaM: "Pr. Guilherme", pessoaT: "Pr. Guilherme"},
+    
+
 
 ]
 
@@ -358,14 +360,16 @@ let plantaodiario = [
     {data: new Date(2023, 6, 20), pessoa: "Recesso"},
 
     {data: new Date(2023, 6, 24), pessoa: "Recesso"},
-    {data: new Date(2023, 6, 25), pessoa: "Rudi"},
-    {data: new Date(2023, 6, 26), pessoa: "Thiago"},
-    {data: new Date(2023, 6, 27), pessoa: "Pr. Guilherme"},
+    {data: new Date(2023, 6, 25), pessoa: ""},
+    {data: new Date(2023, 6, 26), pessoa: ""},
+    {data: new Date(2023, 6, 27), pessoa: ""},
 
-    {data: new Date(2023, 6, 31), pessoa: "Diretor"},
-    {data: new Date(2023, 6, 1), pessoa: "Rudi"},
-    {data: new Date(2023, 6, 2), pessoa: "Thiago"},
-    {data: new Date(2023, 6, 3), pessoa: "Pr. Guilherme"},
+    {data: new Date(2023, 6, 31), pessoa: ""},
+    {data: new Date(2023, 7, 1), pessoa: ""},
+    {data: new Date(2023, 7, 2), pessoa: ""},
+    {data: new Date(2023, 7, 3), pessoa: ""},
+
+    
 
     
 
