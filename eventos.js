@@ -416,7 +416,7 @@ let eventos = [
     {data1: new Date (2023, 11, 20), data2: new Date (2023, 11, 20), descritivo: 'Início das Férias docentes', cal: 'caab', resp: ' ', foto: ' ', detalhes: ' ', pais: false, niv: ' '},
     {data1: new Date (2023, 11, 20), data2: new Date (2023, 11, 15), descritivo: 'Férias Administração das Unidades Escolares – limite máximo para retorno da equipe gestora da escola 15/01', cal: 'caab', resp: ' ', foto: ' ', detalhes: ' ', pais: false, niv: ' '},
     {data1: new Date (2023, 11, 25), data2: new Date (2023, 11, 25), descritivo: 'Natal', cal: 'out', resp: ' ', foto: ' ', detalhes: ' ', pais: false, niv: ' '},
-    {data1: new Date (2023, 4, 31), data2: new Date (2023, 4, 31), descritivo: 'Natal', cal: 'out', resp: ' ', foto: ' ', detalhes: ' ', pais: false, niv: ' '},
+    {data1: new Date (2023, 11, 31), data2: new Date (2023, 11, 31), descritivo: 'Ano Novo', cal: 'out', resp: ' ', foto: ' ', detalhes: ' ', pais: false, niv: ' '},
     
 ]
 
