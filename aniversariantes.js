@@ -67,26 +67,29 @@ const pessoas = [
     // {nome: "Tayna Ribeiro dos Santos ", dia: 25, mes: 5, ano: 1997, funcao: "Professora", foto:"img/anivImg/junho/tayna.png"},
 
     //JULHO
-    {nome: "Daniela Regina Lamarques Isobe", dia: 4, mes: 6, ano: 1975, funcao: "Coordenadora", foto:"img/anivImg/julho/danilamarques.jpg", nascimento: new Date(1975, 6, 4)},
-    {nome: "Liamara Andrighetto", dia: 8, mes: 6, ano: 1981, funcao: "Professora", foto:"img/anivImg/julho/lia.png", nascimento: new Date(1981, 6, 8)},
-    {nome: "Vanessa Pereira Farias", dia: 10, mes: 6, ano: 1984, funcao: "Professora", foto:"img/anivImg/julho/vanessa.png", nascimento: new Date(1984, 6, 10)},
-    {nome: "Ronaldo Vieira Silva Modesto", dia: 12, mes: 6, ano: 1982, funcao: "Professor", foto:"img/anivImg/julho/ronaldo.png", nascimento: new Date(1982, 6, 12)},
-    {nome: "Cacilda Smaha Mannala", dia: 16, mes: 6, ano: 1972, funcao: "Bibliotecária Rede", foto:"img/anivImg/julho/cacilda.jpg", nascimento: new Date(1972, 6, 16)},
-    {nome: "Thiago Andrews Carvalho", dia: 24, mes: 6, ano: 1984, funcao: "Vice-diretor", foto:"img/anivImg/julho/thiagoandrews.png", nascimento: new Date(1984, 6, 24)},
+    // {nome: "Liamara Andrighetto", dia: 8, mes: 6, ano: 1981, funcao: "Professora", foto:"img/anivImg/julho/lia.png", nascimento: new Date(1981, 6, 8)},
+    // {nome: "Vanessa Pereira Farias", dia: 10, mes: 6, ano: 1984, funcao: "Professora", foto:"img/anivImg/julho/vanessa.png", nascimento: new Date(1984, 6, 10)},
+    // {nome: "Ronaldo Vieira Silva Modesto", dia: 12, mes: 6, ano: 1982, funcao: "Professor", foto:"img/anivImg/julho/ronaldo.png", nascimento: new Date(1982, 6, 12)},
+    // {nome: "Cacilda Smaha Mannala", dia: 16, mes: 6, ano: 1972, funcao: "Bibliotecária Rede", foto:"img/anivImg/julho/cacilda.jpg", nascimento: new Date(1972, 6, 16)},
+    // {nome: "Thiago Andrews Carvalho", dia: 24, mes: 6, ano: 1984, funcao: "Vice-diretor", foto:"img/anivImg/julho/thiagoandrews.png", nascimento: new Date(1984, 6, 24)},
     
     //AGOSTO
+    {nome: "Jesus Alberto Perez Gonzalez", dia: 12, mes: 7, ano: 1991, funcao: "Zelador", foto:"", nascimento: new Date()},
     {nome: "Clarice dos Santos da Silva", dia: 15, mes: 7, ano: 1977, funcao: "Professora", foto:"", nascimento: new Date()},
+    {nome: "Marcos Paulo Huida", dia: 18, mes: 7, ano: 2000, funcao: "Monitor", foto:"", nascimento: new Date()},
     {nome: "Sandra Cristina Labatut Pereira", dia: 19, mes: 7, ano: 1970, funcao: "Professora", foto:"", nascimento: new Date()},
+    {nome: "Eduarda de Oliveira da Costa Votroba", dia: 24, mes: 7, ano: 1999, funcao: "Professora", foto:"", nascimento: new Date()},
+    {nome: "Jociane Alves Viana Moraes", dia: 24, mes: 7, ano: 1990, funcao: "Professora", foto:"", nascimento: new Date()},
     {nome: "Willian Resende Leite", dia: 25, mes: 7, ano: 1977, funcao: "Professor", foto:"", nascimento: new Date()},
     {nome: "Lucas Rocha Santos", dia: 28, mes: 7, ano: 1977, funcao: "Monitor", foto:"", nascimento: new Date()},
     {nome: "Jessica Vaz dos Santos Cappellesso", dia: 29, mes: 7, ano: 1977, funcao: "Orientadora", foto:"", nascimento: new Date()},
     
     //SETEMBRO
     {nome: "Janete Stachak dos Santos", dia: 1, mes: 8, ano: 1976, funcao: "Monitora", foto:"", nascimento: new Date()},
+    {nome: "Auricris Antonia Rios Hernandez", dia: 5, mes: 8, ano: 2000, funcao: "Zeladora", foto:"", nascimento: new Date()},
     {nome: "Merillyn Kelse Rego Abreu", dia: 6, mes: 8, ano: 1986, funcao: "Recepcionista", foto:"", nascimento: new Date()},
     {nome: "Scheyla Luciana Pinto dos Santos de Lima", dia: 11, mes: 8, ano: 1976, funcao: "Professora", foto:"", nascimento: new Date()},
     {nome: "Louise Helena Monteiro Vargas", dia: 15, mes: 8, ano: 1995, funcao: "Psicóloga", foto:"", nascimento: new Date()},
-    {nome: "Eduardo Blaskovi Pereira dos Santos", dia: 20, mes: 8, ano: 1985, funcao: "Promotor Matrícula", foto:"", nascimento: new Date()},
     {nome: "Jucicleide Silva Santos", dia: 25, mes: 8, ano: 1974, funcao: "Professora", foto:"", nascimento: new Date()},
     {nome: "Endi Thais Santos da Silva", dia: 26, mes: 8, ano: 1993, funcao: "Professora", foto:"", nascimento: new Date()},
     {nome: "Hellen Aguilar da Silva Perly", dia: 28, mes: 8, ano: 1983, funcao: "Professora", foto:"", nascimento: new Date()},
@@ -102,15 +105,19 @@ const pessoas = [
     //NOVEMBRO
     {nome: "Denise Schmidt Vieira", dia: 5, mes: 10, ano: 1971, funcao: "Professora", foto:"", nascimento: new Date()},
     {nome: "Maria Aparecida de Barros Almeida", dia: 13, mes: 10, ano: 1963, funcao: "Orientadora", foto:"", nascimento: new Date()},
-    {nome: "Leticia Caroline dos Santos", dia: 16, mes: 10, ano: 2000, funcao: "Tutora", foto:"", nascimento: new Date()},
+    {nome: "Gabriella Thome de Lara Machado", dia: 18, mes: 10, ano: 2005, funcao: "Tutora", foto:"", nascimento: new Date()},
     {nome: "Sãmella Modesto Ferreira", dia: 27, mes: 10, ano: 2003, funcao: "Aux. de Classe", foto:"", nascimento: new Date()},
+    {nome: "Taina Beatriz Souza do Rosario Santos", dia: 27, mes: 10, ano: 2003, funcao: "Aux. de Classe", foto:"", nascimento: new Date()},
     {nome: "Gisele Anastacio de Souza", dia: 29, mes: 10, ano: 1983, funcao: "Aux. de CT", foto:"", nascimento: new Date()},
+    {nome: "Cyndy Anais Patete Hernandez", dia: 30, mes: 10, ano: 1994, funcao: "Zeladora", foto:"", nascimento: new Date()},
     {nome: "Fernanda Moreira da Silva Nakonieczni", dia: 30, mes: 10, ano: 1990, funcao: "Professora", foto:"", nascimento: new Date()},
     
     //DEZEMBRO
     {nome: "Danielle Sousa da Silva Ferraz de Matos", dia: 2, mes: 11, ano: 1989, funcao: "Tesoureira", foto:"", nascimento: new Date()},
     {nome: "Jaqueline Tavares", dia: 4, mes: 11, ano: 1976, funcao: "Professora", foto:"", nascimento: new Date()},
+    {nome: "Francini Cristina Gonzati", dia: 5, mes: 11, ano: 2003, funcao: "Tutora", foto:"", nascimento: new Date()},
     {nome: "Raquel das Gracas Rodrigues da Anunciacao", dia: 7, mes: 11, ano: 1968, funcao: "Aux. de Classe", foto:"", nascimento: new Date()},
+    {nome: "Bianca Gabriella Huber Lendecker", dia: 10, mes: 11, ano: 2002, funcao: "Tutora", foto:"", nascimento: new Date()},
     {nome: "Carin Grime de Melo", dia: 13, mes: 11, ano: 1988, funcao: "Aux. Secretaria", foto:"", nascimento: new Date()},
     {nome: "Caroline Ramos Joaquim", dia: 17, mes: 11, ano: 1978, funcao: "Professora", foto:"", nascimento: new Date()},
     {nome: "Denis de Noronha Gomes", dia: 19, mes: 11, ano: 1977, funcao: "Professor", foto:"", nascimento: new Date()},
