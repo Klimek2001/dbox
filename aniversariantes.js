@@ -74,15 +74,15 @@ const pessoas = [
     // {nome: "Thiago Andrews Carvalho", dia: 24, mes: 6, ano: 1984, funcao: "Vice-diretor", foto:"img/anivImg/julho/thiagoandrews.png", nascimento: new Date(1984, 6, 24)},
     
     //AGOSTO
-    {nome: "Jesus Alberto Perez Gonzalez", dia: 12, mes: 7, ano: 1991, funcao: "Zelador", foto:"", nascimento: new Date()},
-    {nome: "Clarice dos Santos da Silva", dia: 15, mes: 7, ano: 1977, funcao: "Professora", foto:"", nascimento: new Date()},
-    {nome: "Marcos Paulo Huida", dia: 18, mes: 7, ano: 2000, funcao: "Monitor", foto:"", nascimento: new Date()},
-    {nome: "Sandra Cristina Labatut Pereira", dia: 19, mes: 7, ano: 1970, funcao: "Professora", foto:"", nascimento: new Date()},
-    {nome: "Eduarda de Oliveira da Costa Votroba", dia: 24, mes: 7, ano: 1999, funcao: "Professora", foto:"", nascimento: new Date()},
-    {nome: "Jociane Alves Viana Moraes", dia: 24, mes: 7, ano: 1990, funcao: "Professora", foto:"", nascimento: new Date()},
-    {nome: "Willian Resende Leite", dia: 25, mes: 7, ano: 1977, funcao: "Professor", foto:"", nascimento: new Date()},
-    {nome: "Lucas Rocha Santos", dia: 28, mes: 7, ano: 1977, funcao: "Monitor", foto:"", nascimento: new Date()},
-    {nome: "Jessica Vaz dos Santos Cappellesso", dia: 29, mes: 7, ano: 1977, funcao: "Orientadora", foto:"", nascimento: new Date()},
+    {nome: "Jesus Alberto Perez Gonzalez", dia: 12, mes: 7, ano: 1991, funcao: "Zelador", foto:"img/anivImg/agosto/JesusGonzalez.png", nascimento: new Date()},
+    {nome: "Clarice dos Santos da Silva", dia: 15, mes: 7, ano: 1977, funcao: "Professora", foto:"img/anivImg/agosto/Clarice.png", nascimento: new Date()},
+    {nome: "Marcos Paulo Huida", dia: 18, mes: 7, ano: 2000, funcao: "Monitor", foto:"img/anivImg/agosto/Marcos.png", nascimento: new Date()},
+    {nome: "Sandra Cristina Labatut Pereira", dia: 19, mes: 7, ano: 1970, funcao: "Professora", foto:"img/anivImg/agosto/Sandra.png", nascimento: new Date()},
+    {nome: "Eduarda de Oliveira da Costa Votroba", dia: 24, mes: 7, ano: 1999, funcao: "Professora", foto:"img/anivImg/agosto/Eduarda.png", nascimento: new Date()},
+    {nome: "Jociane Alves Viana Moraes", dia: 24, mes: 7, ano: 1990, funcao: "Professora", foto:"img/anivImg/agosto/Jociane.png", nascimento: new Date()},
+    {nome: "Willian Resende Leite", dia: 25, mes: 7, ano: 1997, funcao: "Professor", foto:"img/anivImg/agosto/Willian.png", nascimento: new Date()},
+    {nome: "Lucas Rocha Santos", dia: 28, mes: 7, ano: 1977, funcao: "Monitor", foto:"img/anivImg/agosto/LucasRocha.png", nascimento: new Date()},
+    {nome: "Jessica Vaz dos Santos Cappellesso", dia: 29, mes: 7, ano: 1977, funcao: "Orientadora", foto:"img/anivImg/agosto/Jessica.png", nascimento: new Date()},
     
     //SETEMBRO
     {nome: "Janete Stachak dos Santos", dia: 1, mes: 8, ano: 1976, funcao: "Monitora", foto:"", nascimento: new Date()},
